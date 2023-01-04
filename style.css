@@ -2,15 +2,58 @@
 font-family: 'Shrikhand', cursive;
 */
 
-body {
-  background-color: green;
+:root {
+  --branding-color: #f9f7fe;
+  --main-color: #2c74b3;
+  --btn-color: #144272;
+  --heading-font-family: "Roboto Slab", serif;
+  --default-font-family: "Solway", serif;
 }
 
-h1 {
-  font-family: "Roboto Slab", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 p {
-  font-family: "Solway", serif;
+  font-family: var(--default-font-family);
+}
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.hero h2 {
+  padding: 52px 0 0;
+}
+
+.hero p {
+  padding: 30px 20px;
+  line-height: 2;
+  margin-top: 10px;
+  font-size: 19px;
+}
+.hero a {
+  font-family: var(--default-font-family);
+}
+
+.btn-branding {
+  background: var(--btn-color);
+  border-radius: 4px;
+  color: beige;
+  font-size: 15px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
