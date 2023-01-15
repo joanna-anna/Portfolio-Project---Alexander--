@@ -23,18 +23,12 @@ h6 {
 h2 {
   font-size: 25px;
   margin: 20px 0 0;
-  text-align: center;
   padding-bottom: 25px;
-}
-.section h2 {
-  font-size: 33px;
-  direction: underline;
 }
 
 p {
   font-family: var(--default-font-family);
   line-height: 1.7;
-  text-align: center;
 }
 
 img {
@@ -48,7 +42,7 @@ footer {
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 40px;
 }
 
 .hero h1 {
@@ -67,12 +61,34 @@ footer {
   margin-top: 10px;
   font-size: 19px;
 }
+
 .hero a {
   font-family: var(--default-font-family);
 }
 
+.about-section {
+  padding: 160px 40px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .section h2 {
   font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .btn-branding {
@@ -111,7 +127,7 @@ col.project-description {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 35px;
   }
@@ -127,5 +143,10 @@ col.project-description {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
