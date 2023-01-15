@@ -42,7 +42,7 @@ footer {
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 0px 40px;
+  padding: 160px 40px;
 }
 
 .hero h1 {
@@ -67,7 +67,7 @@ footer {
 }
 
 .content-conteiner {
-  padding: 160px 40px;
+  padding: 0px 40px;
 }
 
 .content h1 {
